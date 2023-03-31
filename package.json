@@ -1,6 +1,9 @@
 {
   "name": "call-restrict",
   "version": "0.1.0",
+  "scripts": {
+    "test": "hardhat test"
+  },
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.2",
     "hardhat": "^2.13.0"
