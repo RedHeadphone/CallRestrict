@@ -1,0 +1,3 @@
+# Call Restrict
+
+A library for restricting the call of a solidity smart contract function by time or count. It can be used to set a time limit between two consecutive calls for each user, ensuring that a function cannot be called again until the specified time has passed. Also, it can be used to set a count limit on calls for each user, ensuring that a function cannot be called more than the specified amount.
