@@ -13,7 +13,7 @@ import './CallRestrict.sol';
 
 contract YourContract is CallRestrict{
 
-    function timeRestrictedFunction() public timeRestrict(1, 1 minutes) {
+    function timeRestrictedFunction() public timeRestrict(0, 1 minutes) {
         ...
     }
 }
@@ -34,6 +34,10 @@ contract YourContract is CallRestrict{
     }
 }
 ```
+
+### Note:
+
+First parameter of timeRestrict and countRestrict is the id of the function, which is used to distinguish different functions. You should use different id for different functions to avoid unexpected behavior.
 
 ## License
 
